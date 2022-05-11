@@ -12,8 +12,13 @@ const Nav = () => {
           <li>
             <a href="/">Pictures</a>
           </li>
-          <li></li>
-          <li></li>
+          <li>
+          <a href="/">About us</a>
+          </li>
+          <li>
+          <a href="/contacts">Contacts</a>
+          </li>
+
         </ul>
       </div>
     </div>
