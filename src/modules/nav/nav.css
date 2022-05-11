@@ -1,0 +1,34 @@
+.main{
+    background-color: rgb(173, 188, 216);
+    width: 100%;
+    height: 50px;
+}
+.uList{
+    display: inline;
+}
+.uList li {
+    display: inline;
+    padding: 10px;
+    float: left;
+
+}
+.uList li a {
+    text-decoration: none;
+    color: black;
+}
+.uList li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: gray;
+    margin: 10px;
+    transition: 0.4s;
+}
+.uList li a:hover {
+    background-color: bisque;
+}
+.navbar{
+    /* background-color: azure; */
+    padding-left: 100px;
+}
