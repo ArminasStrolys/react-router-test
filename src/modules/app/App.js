@@ -1,7 +1,9 @@
 import "./app.css";
 import Nav from "../nav/Nav";
-import Content1 from "../_1content/Content1";
-import Content4 from "../_4content/Content4";
+import Content1 from "../content1/Content1";
+import Content2 from "../content2/Content2";
+import Content3 from "../content3/Content3";
+import Content4 from "../content4/Content4";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -9,15 +11,10 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-        {/* <Content1 /> */}
         <Routes>
-          {/* <Route path="/">
-            <Content1 />
-          </Route>
-          <Route path="/contacts">
-            <Content4 />
-          </Route> */}
           <Route path="/" element={<Content1 />} />
+          <Route path="/pictures" element={<Content2 />} />
+          <Route path="/about-us" element={<Content3 />} />
           <Route path="/contacts" element={<Content4 />} />
         </Routes>
       </div>

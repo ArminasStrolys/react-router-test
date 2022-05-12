@@ -10,10 +10,10 @@ const Nav = () => {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/">Pictures</a>
+            <a href="/pictures">Pictures</a>
           </li>
           <li>
-          <a href="/">About us</a>
+          <a href="/about-us">About us</a>
           </li>
           <li>
           <a href="/contacts">Contacts</a>

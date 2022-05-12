@@ -1,0 +1,11 @@
+.content4{
+    margin: 100px 150px;
+}
+form{
+    margin-top: 100px;
+}
+form input{
+    display: block;
+    width: 300px;
+    margin: 20px 0;
+}

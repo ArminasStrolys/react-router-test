@@ -3,6 +3,9 @@ import './content1.css'
 
 const Content1 = () => {
   return (
+    <>
+
+<h1 style={{"marginLeft":'150px'}}>This is the main page</h1>
     <div className="mainContent1">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tempore
       temporibus praesentium laboriosam pariatur distinctio, ipsum nam labore
@@ -36,6 +39,7 @@ const Content1 = () => {
       Fugit adipisci, quam quidem maiores ab itaque est esse facilis beatae
       velit assumenda voluptatem consequuntur quibusdam sapiente, quasi nulla!
     </div>
+    </>
   );
 };
 
