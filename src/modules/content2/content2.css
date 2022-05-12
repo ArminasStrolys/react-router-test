@@ -5,3 +5,10 @@
 .content2{
     margin: 150px;
 }
+.card-container{
+    width: 100%;
+}
+.card-container img{
+    width: 30%;
+    margin: 10px;
+}

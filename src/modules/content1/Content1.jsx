@@ -5,7 +5,7 @@ const Content1 = () => {
   return (
     <>
 
-<h1 style={{"marginLeft":'150px'}}>This is the main page</h1>
+<h1 style={{"margin":'100px 150px'}}>This is the main page</h1>
     <div className="mainContent1">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tempore
       temporibus praesentium laboriosam pariatur distinctio, ipsum nam labore
