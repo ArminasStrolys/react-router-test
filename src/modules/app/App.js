@@ -12,8 +12,8 @@ function App() {
       <div className="App">
         <Nav />
         <Routes>
-          <Route path="/" element={<Content1 />} />
-          <Route path="/pictures" element={<Content2 />} />
+          <Route path="/" element={<Content1 />} onClick={(e)=>e.preventDefault()} />
+          <Route path="/pictures" element={<Content2 />} onClick={(e)=>e.preventDefault()} />
           <Route path="/about-us" element={<Content3 />} />
           <Route path="/contacts" element={<Content4 />} />
         </Routes>
